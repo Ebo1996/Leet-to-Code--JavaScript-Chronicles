@@ -3,7 +3,7 @@ function checkIfInstanceOf(obj, classFunction) {
     return false;
   }
 
-  // Handle primitive types that behave like instances of wrapper objects
+
   if (
     (typeof obj === 'number' && classFunction === Number) ||
     (typeof obj === 'string' && classFunction === String) ||
